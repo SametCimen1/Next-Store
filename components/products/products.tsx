@@ -29,7 +29,7 @@ export default function Products({variants}: ProductTypes){
     return(
         <div className="">
             <Categories />
-            <h2 className="text-xl mt-20 font-semibold">
+            {/* <h2 className="text-xl mt-20 font-semibold">
                 Products
             </h2>
             <main className="grid sm:grid-cols-1 md:grid-cols-2 gap-12 gap-y-10 lg:grid-cols-3 ">
@@ -44,9 +44,7 @@ export default function Products({variants}: ProductTypes){
                         <div className="flex justify-between">
                             <div className="font-medium">
                                 <h2>{variant.product.title}</h2>
-                                {/* <p className="text-sm text-muted-foreground">
-                                    {variant.productType}
-                                </p> */}
+       
                             </div>
                             <div>
                                 <Badge className="text-sm" variant={'secondary'}>
@@ -62,7 +60,7 @@ export default function Products({variants}: ProductTypes){
                         <Button variant={'outline'}>Shop all</Button>
                     </Link>
                 </div>
-            </main>
+            </main> */}
 
             <div className="hero mt-20">
                 <div className="flex lg:flex-row flex-col">
